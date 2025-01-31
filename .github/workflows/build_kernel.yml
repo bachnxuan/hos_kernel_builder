@@ -35,7 +35,7 @@ jobs:
           
       - name: Clone kernel source
         run: |
-          git clone --depth 1 https://github.com/bachnxuan/android_kernel_xiaomi_mt6895.git -b 15 build
+          git clone --depth 1 https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git -b xaga-s-oss build
           ls -la
           
       - name: Add KernelSU-Next
